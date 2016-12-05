@@ -1,0 +1,70 @@
+html,body
+{
+    width: 100%;
+    margin:0;
+    font-family: 'Arial';
+    position: absolute; background:url()
+}
+header
+{
+    width:100%;
+    height: auto;
+    background-color:midnightblue;
+    color:white;
+    padding: 20px;
+    
+}
+body
+{
+    background-color: darkslateblue;
+}
+main
+{
+    width:80%;
+    height: 100%;
+    margin:10px auto;
+    border:3px groove #aaa;
+    overflow: auto;
+    color:midnightblue;
+    
+    
+}
+wrapper
+{
+    width:100%;
+    height:100%;
+    /*position: absolute;*/
+}
+.sidebar
+{
+    color: white;
+    background-color:  midnightblue;
+    box-sizing: border-box;
+    max-width: 20%;
+    padding:10px;
+    border-right:3px groove #aaa;
+    height: 100%;
+    left:0;
+    float:left;
+    position: relative;
+}
+content
+{
+    box-sizing: border-box;
+    width:60%;
+    height: 80%;
+    padding:10px;
+    border-right:3px groove #aaa;
+    position:relative;
+    float:left;  
+    font-size: 27;
+    background-color:  midnightblue;
+    color: white
+    
+    
+}
+.questions
+{
+    visibility: hidden;
+}
+

@@ -1,0 +1,134 @@
+body{
+    font-family: "Comic Sans MS";
+    color:blueviolet;
+    display:inline;
+    font-size: 20px;
+}
+
+header{
+    padding-top: 10px;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 8000;
+    background-color:rgba(255,255,255,0.5);
+}
+header h1
+{
+    padding-left:10px;
+}
+
+marquee{
+    background-color: azure;
+    padding:0;
+    margin: 0;
+}
+
+article 
+{
+    width:100%;
+    position:relative;
+    clear: both;
+}
+article img{
+    margin: 40px;
+    width:180px;
+    height:150px;
+    padding: 10px;
+    float: left;
+    display:block;
+}
+article .info 
+{
+    padding-top:20px;   
+    float: inherit;
+    font-size: 15px;
+    position: absolute;
+    margin-left: 250px;
+    margin-right: 100px;
+    
+}
+article h2
+{
+    display: inline-block;
+    width:100%;
+    border-bottom: 1px solid blueviolet;
+}
+
+main{
+    width: 90%;
+    min-height: 95%;
+    overflow-x:auto;
+    margin: 0 auto;
+    background-color: white;
+}
+a{
+    color: blueviolet;
+    text-decoration: none;
+}
+marquee a{
+    padding: 50px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: blueviolet;
+}
+
+ul li {
+  display: block;
+  position: relative;
+  float: left;
+   background-color: blueviolet;
+}
+
+li ul { display: none; z-index: 9000;}
+
+ul li a {
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+  white-space: nowrap;
+  color: #fff;
+}
+
+ul li a:hover { background: #230284; }
+
+
+li:hover > ul {
+  display: block;
+  position: absolute;
+}
+
+li:hover li { float: none; }
+
+li:hover a { background-color: blueviolet; }
+
+li:hover li a:hover { background: #230284; }
+
+.main-navigation li ul li { border-top: 0; }
+
+
+ul ul ul {
+  left: 100%;
+  top: 0;
+}
+
+ul:before,
+ul:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+ul:after { clear: both; }
+#berlin {
+    margin: 40px;
+    width:1000px;
+    height:600px;
+    padding: 250px;
+    display:block;
+    
+}

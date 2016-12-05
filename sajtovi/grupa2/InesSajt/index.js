@@ -1,0 +1,1 @@
+ document.getElementsByTagName("main")[0].style.marginTop = document.getElementsByTagName("header")[0].offsetHeight+10+"px";

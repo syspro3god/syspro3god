@@ -1,0 +1,172 @@
+
+
+#naslov
+{
+    -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: white;
+    font-size: 120px;
+    text-decoration: none;
+    color: black;
+    font-family: Impact, Charcoal, sans-seri;
+    
+    
+}
+header {
+    -webkit-box-shadow: -1px 0px 71px 20px rgba(227,237,225,1);
+-moz-box-shadow: -1px 0px 71px 20px rgba(227,237,225,1);
+box-shadow: -1px 0px 71px 20px rgba(227,237,225,1);
+    text-align: center;
+    margin-left: 235px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    height: 150px;
+    width: 1200px;;
+    background-color: white;
+    border-radius: 15px;
+    border: 3px black;
+    border: 2px solid #333333;
+    background-image: url(img/header.jpg);
+    background-size: cover;
+    
+    
+}
+header:hover { 
+    background-color: #336699;
+    cursor: pointer;
+}
+}
+#logoo{
+    
+    height: 170px;
+    width: 230px;
+}
+
+
+nav 
+{
+    border-bottom: 1px solid #eeeeee;
+    border-top: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+    background-color: #333333;
+    width: 100%;
+    padding-top: 0;
+    padding: 10px;
+    height: 60px;
+    overflow: hidden;
+    
+    
+}
+
+
+body {
+    font-family: "Trebuchet MS";
+    margin: 0;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-image: url(img/pozadina.jpg);
+    background-size: cover;
+}
+main{
+    border-radius: 25px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    -webkit-box-shadow: -5px 3px 69px 29px rgba(224,224,224,1);
+-moz-box-shadow: -5px 3px 69px 29px rgba(224,224,224,1);
+box-shadow: -5px 3px 69px 29px rgba(224,224,224,1);
+    color: black;
+    border: 2px solid #333333;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: aliceblue;
+    margin-top: 7%;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+.dropbtn {
+    
+    border: 1px solid #eeeeee;
+    width: 415.2px;
+    background-color: dimgray;
+    color: white;
+    padding: 16px;
+    font-size: 21px;
+    
+    cursor: pointer;
+    
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
+}
+
+
+.dropdown {
+   
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+.dropdown-content a {
+    
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+
+.show {display:block;}
+
+
+
+#kontakt
+{ 
+    padding-right: 10px;
+    background-color: white;
+    font-size: 22px;
+    position: relative;
+    font-family: fantasy;
+    color: #eeeeee;
+    margin-left: 1530px;
+    border: 3px solid #333333;
+    
+}
+#kontakt:hover
+{
+    color:red;
+    background-color: aliceblue;
+}
+@media only screen and (max-width: 1024px)
+{
+    header
+    {
+        position: relative;
+    }
+    main
+    {
+        margin-left: 250px;
+        width: 100%;
+    }
+    .dropbtn
+    {
+        margin-left: 500px;
+    }
+}
+
+

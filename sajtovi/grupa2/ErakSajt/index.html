@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Projekat</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <header>
+            <h1>Recepti 7/8</h1>
+                <nav>
+                    <ul>
+                        <a href="#Recept1" onclick="prikaziRecept(1);"><li>Recept1</li></a>
+                        <a href="#Recept2" onclick="prikaziRecept(2);"><li>Recept2</li></a>
+                        <a href="#Recept3" onclick="prikaziRecept(3);"><li>Recept3</li></a>
+
+                    </ul>
+                </nav> 
+        </header>
+        <article>
+            
+    <h2>RECEPT 1</h2>
+    
+    
+        <div class="sastojci"> 
+
+    <h3>SASTOJCI</h3>
+            
+            <ul>
+        
+        <li>2 kasike secera</li>
+  <li>2 kasike brasna</li>
+  <li>4 kasike mleka</li>
+<li>2 kasike kakaa</li>
+<li>1 jaje</li>
+
+        
+</ul>
+    </div>
+    
+        <h3>Pravljenje</h3>
+    
+    <ol>
+         
+        <li>u solju sipajte brasno i secer i mesajte</li>
+  <li> dodajte kakao i mesajte</li>
+  <li>dodajte mleko i mesajte  </li>
+<li> dodajte jaje i mesajte</li>
+<li>mesajte dok se sve ne sjedini</li>
+<li>solju sa smesom stavite u mikrotalasnu na 3-5 min</li>
+<li>na kraju mozete dodati dzem,slag,slatku pavlaku ili nesto drugo po izboru</li>        
+        
+</ol>
+
+<img src="images/download.jpg" >
+    
+    </article>
+        
+        <article>
+            
+        
+        <h2>RECEPT 2</h2>
+        
+        <h3>SASTOJCI</h3>
+        <div class="sastojci"> 
+        <ul>
+        <li> 200 g	krem sira</li>
+        <li> 200 g	kisele pavlake</li>
+        <li> 150 g	secera u prahu</li>
+        <li> 2 manja pakovanja	oreo keksa</li>
+        <li> 2	jaja</li>
+        </ul>
+            </div>
+        
+        <h3>Pravljenje</h3>
+        
+        <ol>
+        
+            
+            
+        
+            <li>Poredjajte papirne korpice u kalupe za mafine. Na dno svake korpice stavite po jedan oreo keks.</li>
+
+           
+            <li> Mikserom umutite prvo krem sir, pavlaku i secer. Dodajte dva jaja i umutite.</li>
+            
+
+        <li>Preko svakog keksica sipajte smesu da bude korpica 2/3 puna.</li>
+    <li> Po vrhu izmrvite jos oreo keksica.</li>
+            
+    <li>Pecite na 160 stepeni oko 30 minuta.</li>
+        
+        </ol>
+<img src="images/oreoimage.jpg">
+       
+    
+    
+</article>
+        <article>
+            <h2>RECEPT 3</h2>
+                <div class="sastojci"> 
+            <h3>SASTOJCI</h3>
+
+                    <ul>
+
+                        <li>200 g brašna</li>
+                        <li>2 jajeta</li>
+                        <li>2 kašike ulja</li>
+                        <li>200 ml mleka</li>
+                        <li>200 ml kisele vode</li>
+                        <li>prstohvat soli</li>
+
+                </ul>
+            </div>
+
+                <h3>Pravljenje</h3>
+
+            <ol>
+
+                    <li>U odgovarajuću posudu staviti jaja i mikserom blago umutiti   </li>
+                    
+                <li> Dodati polovinu brašna i mleka i umutiti</li>
+                    
+                <li>Staviti drugu polovinu brašna, prstohvat soli i ostatak mleka. Mikserom umutiti da nema grumuljica od brašna  </li>
+                                       
+                <li>U odgovarajuću posudu staviti jaja i mikserom blago umutiti   
+                </li>
+                <li>Ostaviti da smesa odstoji 30 minuta</li>                             <li> Kutlackom stvljati testo na tiganj </li>                           <li>Nakon pola do 1 minuta okrenuti palacinku, ponoviti postupak i za drugu stranu</li>                 
+                <li>Kao prilog za palacinke predlazzemo dzem(domaci)  eurokrem, secer,pavlaku i sunku   </li>           
+
+            </ol>
+
+        <img src="images/palacinke3.jpg" >
+
+    </article>
+    
+
+</body>
+    <script>
+    function sakrijElement(elem)
+    {
+        elem.style.height="0";
+        elem.style.padding="0";
+        elem.style.margin="0";
+    }
+    function otkrijElement(elem)
+    {
+        elem.style="";
+    }
+    
+    for (i=1;i<document.getElementsByTagName("article").length;i++)
+        {
+            sakrijElement(document.getElementsByTagName("article")[i]);
+        }
+    
+    function prikaziRecept(i)
+    {
+         for (j=0;j<document.getElementsByTagName("article").length;j++)
+        {
+            if (j==(i-1))           otkrijElement(document.getElementsByTagName("article")[j]);
+            else sakrijElement(document.getElementsByTagName("article")[j]);
+        }
+    }
+    document.body.style.paddingTop = document.getElementsByTagName("header")[0].offsetHeight+10+"px";
+</script>
+
+</html> 

@@ -1,0 +1,292 @@
+header
+{
+    width: 60%;
+    margin: 10px auto;
+    padding: 0;
+    background: linear-gradient(#000000, #333333);
+    color: #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    border-left: 4px solid #eeeeee;
+    border-right: 4px solid #eeeeee;
+    border-top: 1px solid #eeeeee;
+    text-align: center;
+    position:relative;
+    z-index:0;
+    -webkit-box-shadow: 1px 12px 50px 4px rgba(235,226,235,1);
+    -moz-box-shadow: 1px 12px 50px 4px rgba(235,226,235,1);
+    box-shadow: 1px 12px 50px 4px rgba(235,226,235,1);
+    /*-webkit-border-image: url(border.png) 30 round;
+    -o-border-image: url(border.png) 30 round; 
+    border-image: url(border.png) 30 round;*/
+}
+html,body
+{
+    overflow-x: hidden;
+}
+@font-face 
+{
+    font-family: SugarpunchDEMO;
+    src: url(SugarpunchDEMO.otf);
+}
+@font-face 
+{
+    font-family: MountainsofChristmas-Bold.ttf;
+    src: url(MountainsofChristmas-Bold.ttf);
+}
+#logo
+{
+    position:relative;
+    height: 200px;
+    z-index:1;
+-webkit-filter: drop-shadow(0px 0px 5px rgba(255,255,255,1));
+}
+html,body
+{
+    width:100%;
+    height: 100%;
+    margin:0;
+    background-color: black;
+    background-image: url(pozadina1.jpg);
+    background-size: cover; 
+    position: fixed;
+
+    
+}
+header h1
+{
+    text-align: center;
+}
+/*header h1:hover
+{
+    border: 0;
+    background-color: inherit;
+}*/
+header h2
+{
+    
+    font-family: SugarpunchDEMO;
+    text-align: center;
+    font-size: 34px;
+    z-index: 1;
+position:relative;
+}
+/*header h2:hover
+{
+    background-color:rgba(0,0,0,0.9);
+    cursor:pointer;
+    border: 1px solid #eeeeee;
+    margin-left: 250px;
+    margin-right: 250px;
+}*/
+nav
+{
+    font-family: SugarpunchDEMO;
+    text-align: center;
+    margin: 0 auto;
+    width: 60%;
+    background: linear-gradient(#000000, #333333);
+    color: #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    border-left: 4px solid #eeeeee;
+    border-right: 4px solid #eeeeee;
+    border-top: 1px solid #eeeeee;
+}
+li
+{
+    display: inline;
+}
+nav li:hover
+{
+    background-color:rgba(0,0,0,0.9);
+    cursor:pointer;
+}
+nav ul
+{   
+    font-family: SugarpunchDEMO;
+    display: inline-block;
+    vertical-align: middle;
+    margin:0;
+    padding: 8px;
+    padding-left:0;
+    border-left: 1px solid #eeeeee;
+}
+nav li
+{
+    font-family: SugarpunchDEMO;
+    vertical-align: middle;
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    list-style: none;
+    width:auto;
+    display: inline;
+    padding: 9px;
+    border-right: 1px solid #eeeeee;
+    margin-right: -4px;
+    border left: 1px solid #eeeeee;
+}
+main
+{
+    
+    -webkit-box-shadow: 1px 12px 50px 4px rgba(235,226,235,1);
+    -moz-box-shadow: 1px 12px 50px 4px rgba(235,226,235,1);
+    box-shadow: 1px 12px 50px 4px rgba(235,226,235,1);
+    width:  calc(60% - 40px);
+    padding: 20px;
+    padding-top: 25px;
+    margin:20px auto;
+    background: linear-gradient(#000000, #333333);
+    color: #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    border-left: 4px solid #eeeeee;
+    border-right: 4px solid #eeeeee;
+    border-top: 1px solid #eeeeee;
+    text-align: justify;
+}
+hr
+{
+    font-family: SugarpunchDEMO;
+    width:  calc(60% - 10px);
+    margin: 10px auto;
+    padding: 0;
+    background: linear-gradient(#000000, #333333);
+    color: #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    border-left: 4px solid #eeeeee;
+    border-right: 4px solid #eeeeee;
+    border-top: 1px solid #eeeeee;
+    padding-left: 10px;
+     
+    
+    
+}
+footer
+{
+    font-family: SugarpunchDEMO;
+    width:  calc(60% - 10px);
+    margin: 10px auto;
+    padding: 0;
+    background: linear-gradient(#000000, #333333);
+    color: #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    border-left: 4px solid #eeeeee;
+    border-right: 4px solid #eeeeee;
+    border-top: 1px solid #eeeeee;
+    padding-left: 10px;
+     
+    
+    
+}
+
+#specholder {
+  display: flex;
+    width:60%;
+    margin: 0 auto;
+}
+#specholder > div {
+  flex: 1; /*grow*/
+}
+.divspec
+{
+    height: 500px;
+    width: 200px;
+    padding: 20px;
+    margin-top: 20px;
+    background: linear-gradient(#000000, #333333);
+    color: #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    border-left: 4px solid #eeeeee;
+    border-right: 4px solid #eeeeee;
+    border-top: 1px solid #eeeeee;
+    display:block;
+    float:left;
+    text-align: center;
+    font-size: 15px;
+}
+
+#naslov
+{
+    font-family: SugarpunchDEMO;
+}
+
+/*h1:hover
+{
+    background-color:rgba(0,0,0,0.9);
+    cursor:pointer;
+    border: 1px solid #eeeeee;
+}
+h2:hover
+{
+    background-color:rgba(0,0,0,0.9);
+    cursor:pointer;
+    border: 1px solid #eeeeee;
+}
+h3:hover
+{
+    background-color:rgba(0,0,0,0.9);
+    cursor:pointer;
+    border: 1px solid #eeeeee;
+}*/
+.divslika
+{
+    margin-top: 10px;
+    max-width: 220px;
+    height: 200px;
+    border: 2px solid #eeeeee;
+}
+#santa
+{
+    position: absolute;
+    bottom:0;
+    right:-80px;
+    z-index:0;
+}
+#video
+{
+    border-bottom: 1px solid #eeeeee;
+    border-left: 50px solid #eeeeee;
+    border-right: 50px solid #eeeeee;
+    border-top: 1px solid #eeeeee;
+    display: inline-block;
+    margin-left: 248px;
+    padding: 20px auto;
+    
+}
+main h2
+{
+    font-family: SugarpunchDEMO;
+    text-align: center;
+    font-size: 34px;
+}
+#glavnisadrzaj
+{
+    text-align: justify;
+    padding: 10px auto;
+}
+.malinaslov
+{
+    font-family: SugarpunchDEMO;
+    text-align: center;
+    font-size: 34px;
+}
+/*.malinaslov:hover
+{
+    background-color:rgba(0,0,0,0.9);
+    cursor:pointer;
+    border: 1px solid #eeeeee;
+}*/
+p
+{
+    text-align: justify;
+}
+.malitekst
+{
+    font-family: SugarpunchDEMO;
+    font-size: 20px;
+    
+}
+.social
+{
+    align-content: center;
+    display: inline;
+}

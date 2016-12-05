@@ -1,0 +1,87 @@
+html, body
+{
+    margin: 0;
+    font-family: 'Arial';
+}
+body{
+        background-color: darkorange;
+        background:url('img/background.jpg') no-repeat center center fixed; 
+        background-size: cover;
+}
+article 
+{
+    width:60%;
+    background-color:rgba(255,255,255,0.5);
+    padding:10px;
+    margin:10px auto;
+}
+article img
+{
+    width:60%;
+    margin:0 auto;
+    display:block;
+    padding:10px;
+}
+header
+{
+    font-variant: small-caps;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    background:rgba(255,255,255,0.7);
+    padding:5px;
+    padding-left: 0;
+}
+header h1
+{
+    color:orange;
+       -webkit-text-stroke: 1px coral;
+    font-size: 250%;
+    padding-left: 5px;
+
+}
+nav ul
+{
+    padding-left: 0;
+}
+nav li
+{
+    display: inline-block;
+    background-color:coral;
+    padding:10px;
+}
+nav li:hover
+{
+    background-color:darkorange;
+}
+nav a
+{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+nav 
+{
+    width: 100%;
+    background-color:orange;
+}
+#hello h2, #hello h3
+{
+    color:white;
+}
+
+#hello
+{
+    margin:10px auto;
+    width: 60%;
+}
+.page 
+{
+    display: none;
+}
+#page1
+{
+    display: block;
+}

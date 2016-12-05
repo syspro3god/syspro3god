@@ -1,0 +1,259 @@
+div p{
+    text-align: right;
+    color: white;
+    font-size: 12px;  
+    display: inline; 
+}
+
+body,head,html{
+    margin: 0;
+    font-family: sans-serif;
+}
+header.novo{
+    color:white;
+    background-color: rgba(0,0,0,0.1);
+    text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black
+}
+h1,h2,h3{
+    text-align: center;
+}
+header{
+    background-color: rgba(0,0,0,0.5);
+}
+
+h1#najbolji{
+    color: black;
+}
+h3{
+   padding: 5px;
+    background-color: palevioletred;
+    display: block;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+nav{
+    text-align: center;
+    
+}
+
+nav li.novo{
+    display: inline;
+    border-left: 1px solid white;
+    border-right: 2px solid white;
+    padding-right: 8px;
+    padding-left: 8px;
+    margin-right: -4px;
+}
+nav li{
+    display: inline;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding-right: 8px;
+    padding-left: 8px;
+    margin-right: -4px;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+div{
+    display: block;
+    
+}
+nav ul{
+    padding-left: 0px;
+    margin: 5px
+}
+article.novo{
+    width: 60%;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.5);
+    min-height: 100px;
+    font-size: 20px;
+    color:white;
+    position: relative; 
+}
+
+article{
+    width: 60%;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.5);
+    height:auto;
+    font-size: 20px;
+}
+article span {
+    display: block;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: initial;
+    margin-bottom: 10px;
+}
+body.novo{
+    color:white;
+    background-image: url("pozadina-naslovna.png");
+    background-size: 100%;
+}
+body#najbolji{
+    color:white;
+    background-image: url("pozadina.png");
+    background-size: 100%;
+    background-repeat:round;
+}
+body#spisak{
+    color:white;
+    background-image: url("pozadina2.png");
+    background-size: 100%;
+    background-repeat:round;
+}
+article a{
+    display: block;
+}
+body,head{
+    margin: 0;
+}
+iframe{
+    display: block;
+    margin: 0 auto;
+    padding-top: 5px;
+    width: 560px;
+    height: 315px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+}
+
+.like_box
+{   
+    position:absolute;
+    text-align: right;
+    right:-150px;
+    top:25px;
+    width:150px;
+}
+
+.like_box p
+{   
+    position: relative;
+    display:inline-block;
+    text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black
+   
+}
+.like_box button
+{ 
+    display:inline-block;
+    padding:2px 5px;
+    border-radius: 100px;
+    background-color:white;
+    border:1px solid #333;
+    font-size: 20px;
+    width:50px;
+	
+}
+.lajk_button
+{
+    color:green;
+}
+.dislajk_button
+{
+    color:red;
+}
+.dislajk_button:after
+{
+content: ' ';
+    clear: right;
+    display: block;
+}
+.like_box button:hover
+{
+    background-color:#ccc;
+    cursor:pointer;
+}
+.like_box button:active
+{
+    background-color:#aaa;
+}
+#postavljac:hover
+{
+    cursor: pointer;
+}
+input, textarea, button,label
+{
+    width:60%;
+    margin: 10px auto;   
+    display: block;
+}
+textarea
+{
+    max-height: 100px;
+    height: 100px;
+    resize: none;
+}
+button
+{
+    color:white;
+    background-color:palevioletred;
+    border:1px solid;
+    border-radius: 10px;
+    padding:5px;
+}
+
+button[disabled]
+{
+	background-color:dimgray;
+	opacity:0.5;
+}
+button[disabled]:hover
+{
+	cursor:default;	
+}
+button:hover
+{
+    background-color:dimgray;
+    cursor:pointer;
+}
+#metnireview
+{
+    position:fixed;
+    width:100%;
+    background-color:rgba(0,0,0,0.5);
+    bottom:0px;
+    left:0px;
+    color:white;
+    overflow: hidden;
+    transition:max-height 0.5s linear;
+}
+#metnireview h2
+{
+    padding-top:10px;
+    width:60%;
+    margin:0 auto;
+}
+#otkazi
+{
+    background-color: red;
+    position: absolute;
+    top: 5px;
+    right: 19%;
+    padding: 3px 8px;
+    font-weight: 800;
+    border-radius: 100px;
+    border:2px solid white;
+}
+#otkazi:hover
+{
+    background-color:darkred;
+    cursor:pointer;
+}
